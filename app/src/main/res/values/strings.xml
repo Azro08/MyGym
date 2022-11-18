@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyGym</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">home</string>
+    <string name="profile">profile</string>
+    <string name="timer">timer</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="choose_exercise_group">Choose exercise group</string>
+    <string name="error">ERROR!</string>
+</resources>

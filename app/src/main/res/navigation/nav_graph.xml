@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.azrosk.mygym.presentation.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/nav_to_exer"
+            app:destination="@id/exercisesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_timer"
+        android:name="com.azrosk.mygym.presentation.timer.TimerFragment"
+        android:label="@string/timer"
+        tools:layout="@layout/fragment_timer" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.azrosk.mygym.presentation.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="com.azrosk.mygym.presentation.exercises.ExercisesFragment"
+        android:label="fragment_exercises"
+        tools:layout="@layout/fragment_exercises" />
+</navigation>
